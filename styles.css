@@ -25,11 +25,16 @@ header.page-header {
   font-size: medium; 
 }
 aside.more-info {
+  float: right;
 /*   background: lightgoldenrodyellow;  */
+}
+aside.more-info p {
+  width: 10rem;
 }
 aside.more-info img {
   width: 150px;
   height: auto; 
+  display: block;
 }
 section#content {
 /*   background: lightgray;  */
@@ -43,4 +48,17 @@ section#content {
 }
 footer.page-footer {
 /*   background: lightskyblue;  */
+}
+li.poem-first-line::first-letter {
+  font-size: 200%;
+  height: 52px;
+  color: green;
+}
+ul.social-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.social-links li {
+  display: inline;
 }
